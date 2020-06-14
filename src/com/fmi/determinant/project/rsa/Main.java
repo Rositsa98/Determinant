@@ -23,8 +23,7 @@ public class Main {
 	private static DeterminantCalculator determinantCalculator;
 
 	public static void main(String[] args) throws UnsupportedEncodingException, FileNotFoundException, IOException {
-		String[] argss = { "-n", "4", "-t", "3", "-quiet" };
-		List<String> arguments = Arrays.asList(argss);
+		List<String> arguments = Arrays.asList(args);
 
 		String outputFileName = null;
 		int threadCount = 1; // initial, default size of threads
